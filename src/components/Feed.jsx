@@ -1,10 +1,30 @@
-import { Box } from '@mui/material'
-import React from 'react'
+import * as React from 'react';
+import { styled } from '@mui/material/styles';
+import IconButton from '@mui/material/IconButton';
+import { Box } from '@mui/material';
+import Post from './Post';
+const ExpandMore = styled((props) => {
+  const { expand, ...other } = props;
+  return <IconButton {...other} />;
+})(({ theme, expand }) => ({
+  transform: !expand ? 'rotate(0deg)' : 'rotate(180deg)',
+  marginLeft: 'auto',
+  transition: theme.transitions.create('transform', {
+    duration: theme.transitions.duration.shortest,
+  }),
+}));
 
+const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 const Feed = () => {
   return (
    <>
-   <Box bgcolor="orange" flex={4} p={2}>Feed</Box>
+   <Box flex={4} p={3}>
+   <Post/>
+   <Post/>
+   <Post/>
+   <Post/>
+   </Box>
+    
    </>
   )
 }
