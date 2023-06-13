@@ -18,7 +18,7 @@ const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 const Feed = () => {
   return (
    <>
-   <Box flex={4} p={3}>
+   <Box flex={4} p={6}>
    <Post/>
    <Post/>
    <Post/>
