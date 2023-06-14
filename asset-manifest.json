@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/MUI_website/static/css/main.abd64e84.css",
+    "main.js": "/MUI_website/static/js/main.04c5b4ea.js",
+    "static/media/back.jpg": "/MUI_website/static/media/back.a12568e8dc40f26bc678.jpg",
+    "index.html": "/MUI_website/index.html",
+    "main.abd64e84.css.map": "/MUI_website/static/css/main.abd64e84.css.map",
+    "main.04c5b4ea.js.map": "/MUI_website/static/js/main.04c5b4ea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abd64e84.css",
+    "static/js/main.04c5b4ea.js"
+  ]
+}
