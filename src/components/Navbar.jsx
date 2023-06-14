@@ -39,7 +39,7 @@ const Navbar = () => {
         <StyledToolBar>
           <Typography variant='h6' sx={{ display: { xs: "none", sm: "block" } }}>Misk</Typography>
           <PetsIcon sx={{ display: { xs: "block", sm: "none" } }} />
-          <Search><InputBase placeholder='search...' /></Search>
+          <Search ><InputBase placeholder='search...' /></Search>
           <Icons>
             <Badge badgeContent={4} color="error">
               <MailIcon  />
