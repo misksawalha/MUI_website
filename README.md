@@ -1,5 +1,5 @@
-# Nexo
-This project is a movie website that displays a list of movies, TV shows, and personal TV shows. It uses an API to retrieve the data and is built using React, Bootstrap, and Node.js.
+# React MUI 
+This readme file provides an overview and instructions for the GUI built using React and MUI (Material-UI) library. The GUI aims to resemble the look and feel of Facebook. Below, you will find information on how to set up the project, run it locally, and make customizations.
 
 ## Getting Started
 To run this project, you will need to have Node.js installed on your machine. Once you have Node.js installed, you can follow these steps:
